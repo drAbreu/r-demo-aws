@@ -1,9 +1,9 @@
 FROM rocker/shiny:3.4.4
 
 COPY . /r-demo-aws
-MKDIR /r-demo-aws
+WORKDIR /r-demo-aws
 
-EXPOSE 5024
+EXPOSE 3838
 
 USER root
 
