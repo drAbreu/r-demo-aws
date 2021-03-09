@@ -7,4 +7,4 @@ EXPOSE 3838
 
 USER root
 
-CMD ["Rscript", "app.r"]
+CMD ["Rscript", "app.R"]
